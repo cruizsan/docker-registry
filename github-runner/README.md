@@ -1,5 +1,5 @@
 # Github-Runner
-Baser sur [dind:ubuntu-18.04](https://github.com/UNamurCSFaculty/docker-registry/tree/master/dind)
+Baser sur [dind:ubuntu-18.04](https://github.com/cruizsan/docker-registry/tree/master/dind)
 
 ### Librairie installée
 * libunwind8 
@@ -24,4 +24,4 @@ docker run -it -e REPO_URL="<url_gitub>" -e RUNNER_TOKEN="<Github_Token>" -e RUN
 ```
 
 ##### RUNNER_TOKEN & REPO_URL
-![alt](https://github.com/UNamurCSFaculty/docker-registry/raw/master/github-runner/repo_url_and_runner_token.png)
+![alt](https://github.com/cruizsan/docker-registry/raw/master/github-runner/repo_url_and_runner_token.png)
